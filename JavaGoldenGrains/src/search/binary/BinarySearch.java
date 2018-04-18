@@ -2,6 +2,7 @@ package search.binary;
 
 public class BinarySearch {
 
+    // Searches through a sorted array of integers. Returns the index of the result.
     public static int binarySearchArray(int[] arr, int target) {
         boolean found = false;
         int left = 0;
